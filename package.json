@@ -1,6 +1,6 @@
 {
   "name": "@owensdoug/content-ts",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "scripts": {
     "initialize": "npm install && npm run build",
     "remove-git-tags-local": "git tag -d $(git tag -l)",
@@ -8,7 +8,7 @@
     "commit": "git commit",
     "post-version": "git push && git push --tags",
     "bump": "npm version patch",
-    "publish": "npm publish --acess public",
+    "publish": "npm publish --access public",
     "build": "tsc",
     "git-add": "git add -A ./",
     "beautify": "npm run pretty && npm run lint-fix",
